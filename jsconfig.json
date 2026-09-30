@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "nodenext",
+    "checkJs": true,
+    "types": ["p5/global"]
+  },
+  "include": ["src/**/*", "types/**/*"]
+}
