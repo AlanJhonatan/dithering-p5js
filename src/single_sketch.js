@@ -4,10 +4,10 @@ import "../css/style.css";
 /** @type {p5.Image} */
 let img;
 
-const IMAGE_WIDTH = 860;
-const IMAGE_HEIGTH = 512;
+const IMAGE_WIDTH = 700;
+const IMAGE_HEIGTH = 600;
 
-const FACTOR = 1;
+const FACTOR = 2;
 const IMG_RESIZE = 2;
 
 const getIndex = (x, y) => {
@@ -47,7 +47,7 @@ new p5(
   /** @param {import('p5')} p */ (p) => {
     p.preload = () => {
       // preload garante que a imagem carregue antes de iniciar o sketch
-      img = p.loadImage("./dog.jpg");
+      img = p.loadImage("./castle.png");
     };
 
     p.setup = () => {
